@@ -142,6 +142,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color-light);
 }
+.address-link:hover,
+.address-link:focus{
+  color: var(--secondary-text-color-light);
+}
 .address-link-mail {
   color: var(--address-link-text-color);
 }
